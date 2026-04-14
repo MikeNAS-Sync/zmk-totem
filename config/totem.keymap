@@ -34,6 +34,8 @@
 &kp LG(BACKSPACE)  &kp LG(UP_ARROW)    &kp LG(LEFT)   &kp ENTER  &kp LG(RIGHT)  &kp LG(DOWN_ARROW)    &kp PERIOD  &kp PLUS         &kp MINUS    &kp STAR  &kp FSLH  &kp CARET
                                                       &trans     &trans         &trans                &kp EQUAL   &kp RIGHT_SHIFT  &kp PERCENT
             >;
+
+            label = "NAV";
         };
 
         MOUSE {
@@ -43,6 +45,8 @@
 &kp GRAVE  &kp LESS_THAN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GREATER_THAN  &kp UNDERSCORE    &kp F11  &kp F12          &kp F13  &kp F14  &kp F15  &kp F16
                                                 &trans                 &trans            &trans            &none    &kp RIGHT_SHIFT  &none
             >;
+
+            label = "MOUSE";
         };
 
         MEDIA {
@@ -52,6 +56,8 @@
 &none  &none       &none                 &none                 &none             &none    &none         &none         &none         &none         &none         &bt BT_CLR
                                          &none                 &none             &none    &none         &none         &none
             >;
+
+            label = "MEDIA";
         };
 
         NUM {
@@ -61,6 +67,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
+
+            label = "NUM";
         };
 
         FUN {
@@ -70,6 +78,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
+
+            label = "FUN";
         };
 
         SYM {
@@ -79,6 +89,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
+
+            label = "SYM";
         };
     };
 
