@@ -18,7 +18,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        base {
+        BASE {
             bindings = <
        &kp Q      &kp Y       &kp O     &kp U     &none    &kp X      &kp L            &kp D          &kp P  &kp Z
        &kp C      &kp I       &kp A     &kp E     &none    &kp K      &kp H            &kp T          &kp N  &kp S
