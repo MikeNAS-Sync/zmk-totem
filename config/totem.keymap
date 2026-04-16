@@ -30,7 +30,7 @@
             bindings = <
          &none     &none     &none      &none       &none    &kp LC(Y)  &kp LC(V)  &kp LC(C)      &kp LC(X)    &kp LC(Z)
          &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHIFT  &none    &none    &kp LEFT   &kp DOWN       &kp UP       &kp RIGHT
-&kp ESC  &none     &none     &to 0      &tog 1      &none    &none  &none  &none  &none  &none  &kp ESC
+&kp ESC  &none     &none     &to 0      &tog 1      &none    &kp INS    &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp ESC
                              &none      &none       &none    &none  &none  &none
             >;
 
@@ -41,7 +41,7 @@
             bindings = <
          &none     &none     &none      &none       &none    &kp LC(Y)  &kp LC(V)       &kp LC(C)       &kp LC(X)     &kp LC(Z)
          &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHIFT  &none    &none  &none  &none  &none  &none
-&kp ESC  &none     &none     &to 0      &tog 2      &none    &none  &none  &none  &none  &none  &kp ESC
+&kp ESC  &none     &none     &to 0      &tog 2      &none   &none      &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &kp ESC
                              &none      &none       &none    &none  &none  &none
             >;
 
