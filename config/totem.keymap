@@ -30,7 +30,7 @@
         NAV {
             bindings = <
                    &none             &none         &none        &none          &none                 &kp N5      &kp N6           &kp N7       &kp N8    &kp N9
-                   &hm LGUI C        &hm LALT I    &hm LCTRL A  &hm LSHIFT E   &none                 &none       &kp LEFT         &kp DOWN     &kp UP    &kp RIGHT
+                   &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHIFT   &none                 &none       &kp LEFT         &kp DOWN     &kp UP    &kp RIGHT
 &kp LG(BACKSPACE)  &kp LG(UP_ARROW)  &kp LG(LEFT)  &kp ENTER    &kp LG(RIGHT)  &kp LG(DOWN_ARROW)    &kp PERIOD  &kp PLUS         &kp MINUS    &kp STAR  &kp FSLH   &kp CARET
                                                    &trans       &trans         &trans                &kp EQUAL   &kp RIGHT_SHIFT  &kp PERCENT
             >;
@@ -40,8 +40,8 @@
 
         MOUSE {
             bindings = <
-           &kp ESC        &kp LEFT_BRACE        &kp RIGHT_BRACE        &none             &none             &kp F1   &kp F2           &kp F3       &kp F4      &kp F5
-           &hm LGUI C     &hm LALT I            &hm LCTRL A            &hm LSHIFT E      &none             &kp K    &hm RSHIFT H     &hm RCTRL T  &hm RALT N  &hm RGUI S
+           &none             &none         &none        &none          &none             &kp F1   &kp F2           &kp F3       &kp F4      &kp F5
+           &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHIFT      &none             &kp K    &hm RSHIFT H     &hm RCTRL T  &hm RALT N  &hm RGUI S
 &kp GRAVE  &kp LESS_THAN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GREATER_THAN  &kp UNDERSCORE    &kp F11  &kp F12          &kp F13      &kp F14     &kp F15     &kp F16
                                                 &trans                 &trans            &trans            &none    &kp RIGHT_SHIFT  &none
             >;
@@ -51,8 +51,8 @@
 
         MEDIA {
             bindings = <
-       &none       &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &none         &none    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-       &hm LGUI C  &hm LALT I            &hm LCTRL A           &hm LSHIFT E  &none    &kp K         &hm RSHIFT H  &hm RCTRL T   &hm RALT N    &hm RGUI S
+       &none             &none         &none        &none          &none    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+       &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHIFT  &none    &kp K         &hm RSHIFT H  &hm RCTRL T   &hm RALT N    &hm RGUI S
 &none  &none       &none                 &none                 &none         &none    &none         &none         &none         &none         &none         &bt BT_CLR
                                          &none                 &none         &none    &none         &none         &none
             >;
@@ -63,7 +63,7 @@
         NUM {
             bindings = <
         &trans      &trans      &trans       &trans        &trans    &trans      &trans      &trans       &trans        &trans
-        &hm LGUI C  &hm LALT I  &hm LCTRL A  &hm LSHIFT E  &none     &hm LGUI C  &hm LALT I  &hm LCTRL A  &hm LSHIFT E  &none
+        &hm LGUI C  &hm LALT I  &hm LCTRL A  &hm LSHIFT E  &none     &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHIFT  &none
 &trans  &trans      &trans      &trans       &trans        &trans    &trans      &trans      &trans       &trans        &trans  &trans
                                 &trans       &trans        &trans    &trans      &trans      &trans
             >;
@@ -74,7 +74,7 @@
         FUN {
             bindings = <
         &trans      &trans      &trans       &trans        &trans    &trans      &trans      &trans       &trans        &trans
-        &hm LGUI C  &hm LALT I  &hm LCTRL A  &hm LSHIFT E  &none     &hm LGUI C  &hm LALT I  &hm LCTRL A  &hm LSHIFT E  &none
+        &hm LGUI C  &hm LALT I  &hm LCTRL A  &hm LSHIFT E  &none     &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHIFT  &none
 &trans  &trans      &trans      &trans       &trans        &trans    &trans      &trans      &trans       &trans        &trans  &trans
                                 &trans       &trans        &trans    &trans      &trans      &trans
             >;
@@ -85,7 +85,7 @@
         SYM {
             bindings = <
         &trans      &trans      &trans       &trans        &trans    &trans      &trans      &trans       &trans        &trans
-        &hm LGUI C  &hm LALT I  &hm LCTRL A  &hm LSHIFT E  &none     &hm LGUI C  &hm LALT I  &hm LCTRL A  &hm LSHIFT E  &none
+        &hm LGUI C  &hm LALT I  &hm LCTRL A  &hm LSHIFT E  &none     &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHIFTE  &none
 &trans  &trans      &trans      &trans       &trans        &trans    &trans      &trans      &trans       &trans        &trans  &trans
                                 &trans       &trans        &trans    &trans      &trans      &trans
             >;
