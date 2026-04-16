@@ -52,8 +52,8 @@
         MEDIA {
             bindings = <
        &none             &none         &none        &none          &none    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&kp ESC     &trans    &trans    &to 0      &tog 3      &trans    &kp K         &hm RSHIFT H  &hm RCTRL T   &hm RALT N    &hm RGUI S
-&none  &none       &none                 &none                 &none         &none    &none         &none         &none         &none         &none         &bt BT_CLR
+           &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHIFT      &none             &kp K    &hm RSHIFT H     &hm RCTRL T  &hm RALT N  &hm RGUI S
+&kp ESC     &trans    &trans    &to 0      &tog 3      &trans    &kp F11  &kp F12          &kp F13      &kp F14     &kp F15     &kp F16
                                          &none                 &none         &none    &none         &none         &none
             >;
 
