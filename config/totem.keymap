@@ -64,7 +64,7 @@
         NUM {
             bindings = <
         &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-        &hm LGUI C         &hm LALT I  &hm LCTRL A  &hm LSHIFT E     &none    &kp K      &hm RSHIFT H  &hm RCTRL T  &hm RALT N  &hm RGUI S
+        &hm LGUI C    &hm LALT I  &hm LCTRL A  &hm LSHIFT E     &none    &hm LGUI C         &hm LALT I  &hm LCTRL A  &hm LSHIFT E     &none
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
@@ -75,7 +75,7 @@
         FUN {
             bindings = <
         &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-        &hm LGUI C         &hm LALT I  &hm LCTRL A  &hm LSHIFT E     &none    &kp K      &hm RSHIFT H  &hm RCTRL T  &hm RALT N  &hm RGUI S
+        &hm LGUI C         &hm LALT I  &hm LCTRL A  &hm LSHIFT E     &none    &hm LGUI C         &hm LALT I  &hm LCTRL A  &hm LSHIFT E     &none
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
@@ -86,7 +86,7 @@
         SYM {
             bindings = <
         &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-        &hm LGUI C         &hm LALT I  &hm LCTRL A  &hm LSHIFT E     &none    &kp K      &hm RSHIFT H  &hm RCTRL T  &hm RALT N  &hm RGUI S
+        &hm LGUI C         &hm LALT I  &hm LCTRL A  &hm LSHIFT E     &none    &hm LGUI C         &hm LALT I  &hm LCTRL A  &hm LSHIFT E     &none
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
