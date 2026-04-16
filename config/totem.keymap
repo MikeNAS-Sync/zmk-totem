@@ -19,10 +19,10 @@
 
         BASE {
             bindings = <
-       &kp Q       &kp Y       &kp O        &kp U         &none    &kp X      &kp L            &kp D          &kp P       &kp Z
-       &hm LGUI C  &hm LALT I  &hm LCTRL A  &hm LSHIFT E  &none    &kp K      &hm RSHIFT H     &hm RCTRL T    &hm RALT N  &hm RGUI S
-&kp B  &kp COMMA   &kp PERIOD  &kp APOS     &kp SEMI      &none    &kp J      &kp M            &kp G          &kp F       &kp V       &kp W
-                               &kp LGUI     &mo 2         &mo 1    &kp SPACE  &kp RIGHT_SHIFT  &kp RIGHT_ALT
+       &kp Q       &kp Y       &kp O          &kp U         &none      &kp X      &kp L         &kp D        &kp P       &kp Z
+       &hm LGUI C  &hm LALT I  &hm LCTRL A    &hm LSHIFT E  &none      &kp K      &hm RSHIFT H  &hm RCTRL T  &hm RALT N  &hm RGUI S
+&kp B  &kp COMMA   &kp PERIOD  &kp APOS       &kp SEMI      &none      &kp J      &kp M         &kp G        &kp F       &kp V       &kp W
+                               &kp BACKSPACE  &kp SPACE     &kp DEL    &kp SPACE  &kp ENTER     &kp R
             >;
         };
 
