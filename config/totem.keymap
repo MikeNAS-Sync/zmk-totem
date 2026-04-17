@@ -13,6 +13,48 @@
             require-prior-idle-ms = <150>;
             bindings = <&kp>, <&kp>;
         };
+
+        td_softoff: td_softoff {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&none>, <&soft_off>;
+        };
+
+        td_boot: td_boot {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&none>, <&bootloader>;
+        };
+
+        td_reset: td_reset {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&none>, <&sys_reset>;
+        };
+
+        td_btclr: td_btclr {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&none>, <&bt BT_CLR>;
+        };
+
+        td_bt0: td_bt0 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&none>, <&bt BT_SEL 0>;
+        };
+
+        td_bt1: td_bt1 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&none>, <&bt BT_SEL 1>;
+        };
     };
 
     keymap {
