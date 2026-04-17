@@ -36,7 +36,7 @@
             bindings = <&kp>, <&kp>;
         };
 
-        brc: bracket_pair {
+        ht: tap_hold {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
@@ -158,9 +158,9 @@
 
         SYM {
             bindings = <
-         &kp RA(RBKT)  &kp LS(N7)  &kp LS(N8)     &kp LS(N9)       &brc RA(N0) RA(N7)    &none  &none       &none      &none     &none
-         &kp LBKT      &kp LS(N4)  &kp LS(N5)     &kp LS(N6)       &brc RA(N9) RA(N8)    &none  &kp RSHIFT  &kp RCTRL  &kp RALT  &kp RGUI
-&kp ESC  &none  &kp LS(N1)  &kp LS(N2)     &kp LS(N3)       &brc LS(NUBS) NUBS    &none  &tog 6      &to 0      &none     &none     &kp ESC
+         &kp RA(RBKT)  &kp LS(N7)  &kp LS(N8)     &kp LS(N9)       &ht RA(N0) RA(N7)    &none  &none       &none      &none     &none
+         &kp LBKT      &kp LS(N4)  &kp LS(N5)     &kp LS(N6)       &ht RA(N9) RA(N8)    &none  &kp RSHIFT  &kp RCTRL  &kp RALT  &kp RGUI
+&kp ESC  &none  &kp LS(N1)  &kp LS(N2)     &kp LS(N3)       &ht LS(NUBS) NUBS    &none  &tog 6      &to 0      &none     &none     &kp ESC
                        &kp BACKSPACE  &kp LS(N0)  &kp ENTER             &none  &none       &none
             >;
 
