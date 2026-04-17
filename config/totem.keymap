@@ -99,6 +99,8 @@
 &kp B  &kp COMMA   &kp PERIOD  &kp APOS       &kp SEMI      &kp BSLH     &kp J      &kp M         &kp G        &kp F       &kp V       &kp W
                                &lt 3 BSPC  &lt 1 SPACE  &lt 2 DEL    &lt 5 SPACE  &lt 4 ENTER  &lt 6 R
             >;
+
+            display-name = "BASE";
         };
 
         NAV {
