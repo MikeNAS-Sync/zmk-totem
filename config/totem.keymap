@@ -177,12 +177,14 @@
             timeout-ms = <40>;
             key-positions = <32 33>;
             bindings = <&kp TAB>;
+            layers = <0>;
         };
 
         combo_caps_word {
             timeout-ms = <50>;
             key-positions = <13 16>;
             bindings = <&caps_word>;
+            layers = <0>;
         };
     };
 };
