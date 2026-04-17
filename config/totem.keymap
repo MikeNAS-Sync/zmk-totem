@@ -97,7 +97,7 @@
        &kp Q       &kp Y       &kp O          &kp U         &kp MINUS    &kp X      &kp L         &kp D        &kp P       &kp Z
        &hm LGUI C  &hm LALT I  &hm LCTRL A    &hm LSHIFT E  &kp SLASH    &kp K      &hm RSHIFT H  &hm RCTRL T  &hm RALT N  &hm RGUI S
 &kp B  &kp COMMA   &kp PERIOD  &kp APOS       &kp SEMI      &kp BSLH     &kp J      &kp M         &kp G        &kp F       &kp V       &kp W
-                               &kp BACKSPACE  &kp SPACE     &kp DEL      &kp SPACE  &kp ENTER     &kp R
+                               &lt 3 BSPC  &lt 1 SPACE  &lt 2 DEL    &lt 5 SPACE  &lt 4 ENTER  &lt 6 R
             >;
         };
 
@@ -165,15 +165,6 @@
             >;
 
             label = "SYM";
-        };
-    };
-
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        device {
-            if-layers = <1 2>;
-            then-layer = <3>;
         };
     };
 };
