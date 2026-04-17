@@ -148,10 +148,10 @@
 
         SYM {
             bindings = <
-         &none  &none  &none  &none  &none    &none  &none       &none      &none     &none
-         &none  &none  &none  &none  &none    &none  &kp RSHIFT  &kp RCTRL  &kp RALT  &kp RGUI
-&kp ESC  &none  &none  &none  &none  &none    &none  &tog 6      &to 0      &none     &none     &kp ESC
-                       &none  &none  &none    &none  &none       &none
+         &none  &none  &none          &none  &none    &none  &none       &none      &none     &none
+         &none  &none  &none          &none  &none    &none  &kp RSHIFT  &kp RCTRL  &kp RALT  &kp RGUI
+&kp ESC  &none  &none  &none          &none  &none    &none  &tog 6      &to 0      &none     &none     &kp ESC
+                       &kp BACKSPACE  &none  &none    &none  &none       &none
             >;
 
             label = "SYM";
