@@ -36,6 +36,13 @@
             bindings = <&kp>, <&kp>;
         };
 
+        tog_on: toggle_layer_on {
+            compatible = "zmk,behavior-toggle-layer";
+            #binding-cells = <1>;
+            toggle-mode = "on";
+            locking;
+        };
+
         ht: tap_hold {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
